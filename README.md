@@ -3,7 +3,7 @@
 This repository showcases a minimalist yet captivating HTML and CSS code for a dynamic wave animation enclosed within a box. The animation is achieved through CSS keyframes, creating a visually appealing effect that can enhance the aesthetics of web designs.
 
 ## Preview
-![VID-20231224-WA0002_1.gif](https://github.com/Sudhanshu-Ambastha/Wave-Animation-Box/assets/135802131/de4839be-429b-4b33-acd5-f0530c3661f7)
+![VID-20231224-WA0011_1.gif](https://github.com/Sudhanshu-Ambastha/Attendance-app-for-teachers-on-one-compiler/assets/135802131/99306bab-9e8d-40fa-8236-25120a406753)
 
 ## Usage
 Feel free to use and customize this code for your projects. The structure is straightforward, and you can easily integrate it into your HTML files. Experiment with different colors, sizes, and durations to match your design preferences.
