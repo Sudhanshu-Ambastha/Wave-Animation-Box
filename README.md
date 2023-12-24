@@ -8,13 +8,6 @@ https://github.com/Sudhanshu-Ambastha/Attendance-app-for-teachers-on-one-compile
 ## Usage
 Feel free to use and customize this code for your projects. The structure is straightforward, and you can easily integrate it into your HTML files. Experiment with different colors, sizes, and durations to match your design preferences.
 
-```html
-<div class='box'>
-  <div class='wave'></div>
-  <div class='wave -two'></div>
-  <div class='wave -three'></div> 
-</div>
-
 ## Customization
 
 - **Adjust Box and Waves Size:** Modify the `width` and `height` properties in the CSS for the desired dimensions.
@@ -28,3 +21,10 @@ Feel free to use, modify, and distribute it for both personal and commercial pur
 If you find this repository helpful, consider giving it a star! If you have any suggestions or issues, please feel free to open an [issue](https://github.com/yourusername/wave-animation-box/issues).
 
 Happy coding! 🚀
+
+```html
+<div class='box'>
+  <div class='wave'></div>
+  <div class='wave -two'></div>
+  <div class='wave -three'></div> 
+</div>
