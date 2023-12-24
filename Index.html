@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .box {
+        width: 300px;
+        height: 400px;
+        border-radius: 5px;
+        position: relative;
+        overflow: hidden;
+        transform: translate3d(0,0,0);
+        box-shadow: 2px 2px 10px grey;
+    }
+    .wave {
+        opacity: 0.6;
+        position: absolute;
+        top: 3%;
+        left: 50%;
+        width: 500px;
+        height: 500px;
+        margin-left: -250px;
+        margin-top: -250px;
+        transform-origin: 50% 48%;
+        border-radius: 43%;
+        animation: drift 3000ms infinite linear;
+    }
+    .wave.-two {
+        animation: drift-two 7000ms infinite linear;
+        opacity: 0.4;
+        background: yellow;  
+    }
+    .wave.-three {
+        animation: drift-three 5000ms infinite linear;
+    }
+    .box::after {
+        content: '';
+        display: block;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to bottom, rgba(205, 61, 109, 1), rgba(104, 176, 248, 0) 80%, rgba(255, 255, 255, 0.5));
+        z-index: 11;
+        transform: translate3d(0, 0, 0);
+    }
+    @keyframes drift {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+    @keyframes drift-two {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+    @keyframes drift-three {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+  </style>
+</head>
+<body>
+  <div class='box'>
+    <div class='wave'></div>
+    <div class='wave -two'></div>
+    <div class='wave -three'></div> 
+  </div> 
+</body>
+</html>
