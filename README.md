@@ -22,9 +22,17 @@ If you find this repository helpful, consider giving it a star! If you have any 
 
 Happy coding! 🚀
 
+## Author
+<a href = "https://github.com/Sudhanshu-Ambastha/Wave-Animation-Box/contributors">
+  <img src = "https://contrib.rocks/image?repo=Sudhanshu-Ambastha/Wave-Animation-Box"/>
+</a>
+Sudhanshu Ambastha
+
+##
 ```html
 <div class='box'>
   <div class='wave'></div>
   <div class='wave -two'></div>
   <div class='wave -three'></div> 
 </div>
+
