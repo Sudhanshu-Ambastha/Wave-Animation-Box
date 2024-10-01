@@ -28,11 +28,4 @@ Happy coding! 🚀
 </a>
 Sudhanshu Ambastha
 
-##
-```html
-<div class='box'>
-  <div class='wave'></div>
-  <div class='wave -two'></div>
-  <div class='wave -three'></div> 
-</div>
 
